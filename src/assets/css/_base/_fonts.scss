@@ -15,10 +15,33 @@ Example:
 
 // @include font-face('Angeline', '../fonts/Angeline', null, null, woff2 woff);
 
+// @font-face {
+//     font-family: 'Angeline';
+//     src: url(../fonts/AngelineVintage.woff) format('woff'),
+//      url(../fonts/AngelineVintage.woff2) format('woff2');
+// }
+
 @font-face {
-    font-family: 'Angeline';
-    src: url(../fonts/AngelineVintage.woff) format('woff'),
-     url(../fonts/AngelineVintage.woff2) format('woff2');
+    font-family: 'Poppins_Bold';
+    src: url(../../../assets/fonts/Poppins-Bold.ttf);
 }
 
+@font-face {
+    font-family: 'Poppins_Medium';
+    src: url(../../../assets/fonts/Poppins-Medium.ttf);
+}
 
+@font-face {
+    font-family: 'Poppins_Semibold';
+    src: url(../../../assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins_Regular';
+    src: url(../../../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins_Bold';
+    src: url(../../../assets/fonts/Poppins-Bold.ttf);
+}

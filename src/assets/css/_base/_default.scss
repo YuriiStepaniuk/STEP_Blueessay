@@ -1,0 +1,38 @@
+
+
+h1 {
+    @include text_style(35px, 'Poppins_Bold', #000);
+}
+
+h2 {
+    @include text_style(33px, 'Poppins_Medium', #323538);
+}
+
+h3 {
+    @include text_style(27px, 'Poppins_Semibold', #000);
+}
+
+h4 {
+    @include text_style(22px, 'Poppins_Medium', #000);
+}
+
+h5 {
+    @include text_style(17px, 'Poppins_Medium', #000);
+}
+
+h6 {
+    @include text_style(15px, 'Poppins_Medium', #000);
+}
+
+p {
+    @include text_style(14px, "Poppins_Regular", #51555a)
+}
+
+.container-fluid {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1134px;
+    margin: 0 auto;
+}

@@ -83,6 +83,7 @@ path.watch.image = [];
 path.watch.image[0] = path.src.image[0];
 path.watch.image[1] = "!" + path.src.image[0].slice(0, -6) + "svgIcons/*.svg";
 
+
 /**
  * Fonts path
  */

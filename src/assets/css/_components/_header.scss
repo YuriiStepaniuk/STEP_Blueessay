@@ -1,5 +1,54 @@
-header{
-    font-size: 50px;
-    background-color: antiquewhite;
-    padding: 10px;
+header {
+  .container-fluid {
+    height: 100px;
+    background-color: #03a9f4;
+  }
+
+  .row {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    @include text_style(14px, "Poppins_Semibold", #fff);
+
+    .icon {
+      width: 10px;
+      height: 10px;
+    }
+
+    .arrow-down {
+      width: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .links {
+      padding: 10px 25px;
+      border-radius: 4px;
+    }
+
+    .order {
+      background-color: #f75e2e;
+      &:hover {
+        background-color: #fa9e82;
+        transition: 0.5s ease;
+      }
+    }
+
+    .sign--in {
+      background-color: #0287c3;
+
+      &:hover {
+        background-color: #c0e9fc;
+        transition: 0.5s ease;
+      }
+    }
+  }
 }

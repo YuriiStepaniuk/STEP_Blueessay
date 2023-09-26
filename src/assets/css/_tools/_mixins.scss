@@ -1,0 +1,5 @@
+@mixin text_style($s, $ff, $c) {
+    font-size: $s;
+    font-family: $ff;
+    color: $c;
+}

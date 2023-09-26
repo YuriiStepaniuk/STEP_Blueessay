@@ -1,0 +1,149 @@
+.sldr15 {
+  .container-fluid {
+    height: 630px;
+    background-color: #e6f7fe;
+    background-image: url("../../../assets/img/img_cloud.png");
+    background-position: center 44px;
+    background-repeat: no-repeat;
+
+    .container {
+      position: relative;
+      h1 {
+        padding-top: 132px;
+        margin-bottom: 38px;
+        font-size: 47px;
+        font-family: "Poppins_Regular";
+        span {
+          color: #03a9f4;
+        }
+      }
+
+      p {
+        position: relative;
+        font-size: 20px;
+        width: 560px;
+        padding-top: 38px;
+        border-top: 2px solid grey;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: -2%;
+          left: 0%; /* Adjust this value to control the starting point of the red border */
+          width: 10%; /* Adjust this value to control the length of the red border */
+          height: 2px; /* Same as the height of the main border */
+          background-color: red; /* Set the red color for the custom part of the border */
+          z-index: 2;
+        }
+      }
+
+      .place-order {
+        width: 222px;
+        padding: 10px 25px;
+        background-color: #f75e2e;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+
+        &:hover {
+          background-color: #fa9e82;
+          transition: 0.5s ease;
+        }
+      }
+
+      .girl {
+        position: absolute;
+        top: 16%;
+        left: 60%;
+        z-index: 2;
+      }
+
+      .girl-shadow {
+        position: absolute;
+        top: 16%;
+        left: 60%;
+      }
+
+      .continue {
+        margin-top: 80px;
+        height: 138px;
+        width: 103%;
+        position: absolute;
+        left: -1.2%;
+
+        background-color: #03a9f4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .conts {
+          display: flex;
+          flex-direction: column;
+          width: 202px;
+
+          select {
+            height: 52px;
+            border: none;
+            border-radius: 4px;
+
+            color: grey;
+
+            
+          }
+
+          
+
+          &:last-child {
+            margin-top: 26px;
+            height: 52px;
+            background-color: #0287c3;
+            border-radius: 4px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            color: #fff;
+
+            &:hover {
+                background-color: #004261;
+                transition: 0.5s ease;
+            }
+          }
+
+          .cont-btn {
+            display: flex;
+            background-color: #f6f9f9;
+            border-radius: 4px;
+  
+            button {
+              width: 52px;
+              height: 52px;
+              border: none;
+              border-radius: 4px;
+              background-color: #f6f9f9;
+            }
+  
+            .btn-inc-dec {
+              width: 92px;
+              background-color: #f6f9f9;
+              border: none;
+              border-radius: 0;
+              border-left: 1px solid #c9caca;
+              border-right: 1px solid #c9caca;
+              text-align: center;
+            }
+          }
+        }
+
+        
+
+        span {
+          color: #fff;
+          font-size: 13px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
